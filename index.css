@@ -1,0 +1,393 @@
+nav{
+    background-color: #EDEDED;
+    box-shadow: 0px 0px 10px;
+}
+
+.cart-icons {
+    position: absolute;
+    right: 0;
+}
+
+#nav-contd{
+    background-color: #EDEDED;
+}
+
+@media  screen and (max-width: 699px) and (min-width: 290px) {
+    section#nav-contd  .container #links{
+        display: none;
+    }
+    section#nav-contd  .container .form-inline{
+        margin-bottom: 20px;
+    }
+
+    section#newsletter div#input{
+        position: relative;
+        display: none;
+        padding: 0px 20px 0px;
+    }
+
+    footer#myfooter .container .row div{
+        display: flex;
+        justify-content: center ;
+    }
+
+}
+
+.input-group-prepend span{
+    cursor: pointer;
+}
+
+#links ul li a{
+    font-size: 17px; 
+    font-weight: 600;
+    color: #212020;
+}
+
+#links ul li #home{
+    text-decoration: none;
+    color: #49a79c;
+    font-size: 20px; 
+    font-weight: 600;
+}
+
+section#bannar{
+background-color: #fe7b31;
+background: linear-gradient(to right,  #ff701d, #facc91); /*Standard*/
+ height: fit-content;
+}
+
+section#bannar  .row div h1{
+    font-weight: 700;
+    margin-top: 40px;
+    color: #EDEDED;
+}
+
+section#bannar  .row div p{
+    font-weight: 500;
+    color: #EDEDED;
+}
+
+section#bannar  .row div .btn{
+    font-weight: 500;
+    font-size: 20px;
+    color: #EDEDED;
+    background-color: #49a79c;
+    padding: 15px 40px 15px;
+    border-radius: none;
+}
+
+section#howItWorks{
+    background-color: #EDEDED;
+}
+
+section#howItWorks .row #satisfy h6{
+    margin: 0px 8px  0px;
+}
+
+section#howItWorks .row  #satisfy div{
+    display: flex;
+}
+
+section#secondheader .row div h2{
+    font-weight: 700;
+}
+
+section#secondheader .row div h2 span{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fe7b31;
+}
+
+#firstTwoCards .row #Orange p {
+    font-size: large; 
+    font-weight: 400;
+}
+
+#firstTwoCards .row #Orange p .p{
+    font-size: large; 
+    font-weight: 400;
+    color: rgb(157, 157, 157);
+} 
+
+#firstTwoCards .row #Orange  p span{
+    font-size: large; 
+    font-weight: 500;
+    color: #49a79c;
+} 
+
+#firstTwoCards .row #Orange button{
+    font-weight: 500;
+    color: #EDEDED;
+    background-color: #49a79c;
+    border: none;
+    padding: 6px 15px 6px;
+}
+
+#firstTwoCards .row #Peppermint button{
+    font-weight: 500;
+    /* font-size: 17px; */
+    color: #EDEDED;
+    background-color: #49a79c;
+    border: none;
+    padding: 6px 15px 6px;
+}
+
+section#organicProducts .row #addToCart img{
+    padding: 0 5px 0;
+    margin-right: 10px;
+    height:30px;
+}
+
+section#organicProducts .container h2{
+    font-weight: 650;
+}
+
+section#organicProducts .container h2 span{
+    font-weight: 650;
+    color: #49a79c;
+}
+
+section#organicProducts .container h4{
+    font-weight: 700;
+}
+
+section#organicProducts .container h4 span{
+    margin-right: 15px;
+}
+
+section#organicProducts .container h4 span.span {
+    font-weight: 700;
+    border-bottom: #49a79c solid;
+    color: #49a79c; 
+    margin-right: 15px;
+}
+
+section#organicProducts .row #addToCart{
+   background-color:  #49a79c;
+   border: none;
+   color: #EDEDED;
+   padding: 6px 20px 5px;
+   font-weight: 600;
+   font-size: medium;
+   margin-bottom: 25px;
+}
+
+section#organicProducts .row div .border #span{
+    padding: 5px 10px 5px;
+    margin: 0 10px 0;
+}
+
+section#organicProducts .container #Capsicum img.p-2{
+    background-color:#EDEDED ;
+    border-radius: 23px;
+    float: right;
+    height:35px;
+}
+
+section#organicProducts .container #Capsicum h2 h2{
+    font-size: 20px;    
+}
+
+section#organicProducts .container #Capsicum h2.mt-2{
+    font-size: 20px;
+}
+
+section#organicProducts .container #Capsicum h2.mt-3{
+    font-size: 23px;    
+    color: #49a79c;
+}
+
+section#organicProducts .container #Capsicum div span{
+    padding: 5px 10px 5px;
+}
+
+section#organicProducts .container button{
+    padding: 2px 40px 2px;
+    border-color: gray ;
+    font-weight: 500;
+}
+
+section#whatClientSays {
+    background-color: #EDEDED;
+}
+
+#whatClientSays .container h3{
+    font-weight: 690;
+    color: #49a79c;
+    margin-top: 20px;
+}
+
+#whatClientSays .container h3 span{
+    font-weight: 690;
+    color: #111;
+}
+
+section#ourDrinks .container .row div#ourDrinksbtn h3{
+    font-weight: 670;
+}
+
+section#ourDrinks .container .row div#ourDrinksbtn p{
+    font-weight: 500;
+    font-size:large;
+    margin-top: 20px;
+}
+
+section#ourDrinks .container .row div#ourDrinksbtn button{
+    border: 1px solid;
+    margin-top: 25px;
+    padding: 5px 20px 5px;
+}
+
+section#fastFood .container .row div#writeup{
+    display: flex;
+    float: left;
+}
+
+section#fastFood .container .row div#writeup div h3{
+    font-weight: 690;
+}
+
+section#fastFood .container .row div#writeup div p{
+    font-weight: 500;
+    font-size:large;
+    margin-top: 20px;
+}
+
+section#fastFood .container .row div#writeup div button{
+    border: 1px solid;
+    margin-top: 25px;
+    padding: 5px 20px 5px;
+}
+
+section#newsblogs{
+    background-color: #EDEDED;
+}
+
+section#newsblogs .container h3 span{
+    font-weight: 670;
+    color: #49a79c;
+}
+
+section#newsblogs .container h3{
+    font-weight: 670;
+}
+
+section#newsblogs .container p.text-center{
+    font-weight: 400;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+section#newsblogs .container .row #card p{
+    margin-top: 10px;
+    font-size: small;
+}
+
+section#newsblogs .container  .row #card h4{
+    font-weight: 650;
+}
+
+section#newsblogs .container  .row #card p h4 p{
+    margin-left: 20px;
+}
+
+section#newsblogs .container  .row #card div{
+    display: flex;
+    margin: 23px 0px 23px;
+}
+
+section#newsblogs .container  .row #card div .img{
+    padding-right: 5px;
+}
+
+section#newsblogs .container  .row #card div .span{
+    font-size: 13px;
+}
+
+section#newsblogs .container  .row #card div .imgs{
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+section#newsblogs .container  .row #card a {
+    color: #49a79c;
+    font-weight: 600;
+   margin: 15px 0 30px;
+}
+
+section#newsblogs .container div#button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+section#newsblogs .container button {
+    padding: 6px 25px 6px;
+    border: 1.5px solid;
+}
+
+section#newsletter h3{
+    font-weight: 680;
+}
+
+section#newsletter div#input{
+    display: flex;
+    justify-content: center;
+}
+
+section#newsletter div#input input{
+    padding: 6px 30px 6px;   
+}
+
+section#newsletter div#input button{
+    background-color: #49a79c;
+    border: none;
+    color: #EDEDED;
+    padding: 0 15px 0;
+}
+
+footer#myfooter .container .row div p{
+    font-size: 12px;
+    margin-right: 16px;
+}
+
+footer#myfooter .container .row div#companyInfo h6{
+    font-weight: 700;
+} 
+
+footer#myfooter .container .row div#companyInfo ul li{
+    list-style: none;
+    font-size: 13px;
+    font-weight: 470;
+    margin-top: 3px;
+}
+
+footer#myfooter .container .row div#quickLink h6{
+    font-weight: 700;
+} 
+
+footer#myfooter .container .row div#quickLink ul li{
+    list-style: none;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+footer#myfooter .container .row div#hotCategories h6{
+    font-weight: 700;
+} 
+
+footer#myfooter .container .row div#hotCategories ul li{
+    list-style: none;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+footer#myfooter .container .row div#contactUs h6{
+    font-weight: 700;
+} 
+
+footer#myfooter .container .row div#contactUs ul li{
+    list-style: none;
+    font-size: 13px;
+    text-decoration: none;
+}
