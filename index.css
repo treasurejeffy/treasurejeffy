@@ -26,9 +26,14 @@ nav{
         padding: 0px 20px 0px;
     }
 
-    footer#myfooter .container .row div{
+    /* footer#myfooter .container .row div{
         display: flex;
         justify-content: center ;
+    } */
+
+    section#organicProducts .container #Capsicum img .img{
+        width: 100%;
+        height:auto;
     }
 
 }
