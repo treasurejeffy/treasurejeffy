@@ -26,14 +26,13 @@ nav{
         padding: 0px 20px 0px;
     }
 
-    /* footer#myfooter .container .row div{
-        display: flex;
-        justify-content: center ;
-    } */
-
     section#organicProducts .container #Capsicum img .img{
         width: 100%;
         height:auto;
+    }
+
+    .inputField {
+        flex: 0.2;
     }
 
 }
@@ -340,15 +339,17 @@ section#newsletter div#input{
     justify-content: center;
 }
 
-section#newsletter div#input input{
-    padding: 6px 30px 6px;   
+.flexContainer {
+    display: flex;
+    justify-content: center;
 }
 
-section#newsletter div#input button{
-    background-color: #49a79c;
-    border: none;
-    color: #EDEDED;
-    padding: 0 15px 0;
+.inputField {
+    flex: 0.4;
+}
+
+.flexContainer button{
+    border: 1px solid;
 }
 
 footer#myfooter .container .row div p{
