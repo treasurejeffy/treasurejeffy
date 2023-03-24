@@ -1,6 +1,6 @@
 nav{
     background-color: #EDEDED;
-    box-shadow: 0px 0px 10px;
+    box-shadow: 0 0 5px;
 }
 
 .cart-icons {
@@ -339,17 +339,39 @@ section#newsletter div#input{
     justify-content: center;
 }
 
-.flexContainer {
+.flex{
     display: flex;
     justify-content: center;
 }
 
-.inputField {
-    flex: 0.4;
+.flexContainer {
+    display: flex;
+    flex-direction:row;
+    border:1px solid grey;
+    padding:1px 2px 2px;
+    width: fit-content;
 }
 
+.flexContainer:focus-within { 
+    outline: 1px solid #49a79c 
+  }
+
+.inputField {
+    border: none;
+    flex-grow:2;
+}
+
+.inputField:focus {
+    outline: none;
+  }
+
 .flexContainer button{
-    border: 1px solid;
+    border: none;
+    background-color: #49a79c;
+    color: #EDEDED;
+    font-weight: 730;
+    justify-content: center;
+    padding: 6px 12px 6px;
 }
 
 footer#myfooter .container .row div p{
