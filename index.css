@@ -35,10 +35,57 @@ nav{
         flex: 0.2;
     }
 
+    #firstTwoCards{
+        padding: 0 10px 0;
+    }
+
+    section#organicProducts{
+        padding: 0 16px 0; 
+    }
+
+    footer#myfooter .container .row div p{
+        padding: 0 12px 0;
+    }
+
 }
 
-.input-group-prepend span{
-    cursor: pointer;
+#flexContainer{
+    background-color: #ffffff;
+}
+
+.flexContainers {
+    display: flex;
+    flex-direction:row;
+    border: none;
+    padding:6px 18px 6px;
+    /* background-color: #EDEDED; */
+}
+
+.flexContainers:focus-within { 
+    outline: 1px solid #49a79c ;
+    background-color: #EDEDED;
+  }
+
+.input {
+    border: none;
+    flex-grow:2;
+}
+
+.input:focus {
+    outline: none;
+  }
+
+.flexContainers button{
+    border: none;
+    background-color: #EDEDED;
+    color: #111;
+    font-weight: 730;
+    padding: 6px 12px 6px;
+}
+
+.flexContainers button :hover{
+    background-color: #49a79c;
+    color: #EDEDED;
 }
 
 #links ul li a{
@@ -205,9 +252,14 @@ section#organicProducts .container #Capsicum div span{
     padding: 5px 10px 5px;
 }
 
-section#organicProducts .container button{
-    padding: 2px 40px 2px;
-    border-color: gray ;
+section#organicProducts .container  div.button{
+    display: flex;
+    justify-content: center;
+}
+
+section#organicProducts .container  button{
+    padding: 6px 40px 6px;
+    border: gray 1px solid;
     font-weight: 500;
 }
 
@@ -349,12 +401,13 @@ section#newsletter div#input{
     flex-direction:row;
     border:1px solid grey;
     padding:1px 2px 2px;
+    padding-left: 30px;
     width: fit-content;
 }
 
 .flexContainer:focus-within { 
     outline: 1px solid #49a79c 
-  }
+}
 
 .inputField {
     border: none;
@@ -363,7 +416,7 @@ section#newsletter div#input{
 
 .inputField:focus {
     outline: none;
-  }
+}
 
 .flexContainer button{
     border: none;
@@ -372,6 +425,16 @@ section#newsletter div#input{
     font-weight: 730;
     justify-content: center;
     padding: 6px 12px 6px;
+}
+
+footer#myfooter{
+    display: flex;
+    justify-content: center;
+}
+
+footer#myfooter .container .row{
+    display: flex;
+    justify-content: center;
 }
 
 footer#myfooter .container .row div p{
